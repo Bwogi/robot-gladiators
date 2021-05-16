@@ -1,0 +1,1 @@
+alert("Yey! JS is running... ;)");
