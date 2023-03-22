@@ -1,5 +1,13 @@
-window.alert('this is an alert! javascript is running');
+const fight = () => {
+	window.alert('The fight has begun!');
+	let playerName = window.prompt("What is your robot's name?");
+	window.alert(`Welcome ${playerName}!`);
+	console.log(`Welcome ${playerName}!`);
+	window.alert('Your robot, ' + playerName + ' has won!');
+	console.log('Your robot, ' + playerName + ' has won!');
+};
 
+fight();
 // var playerName = window.prompt("What is your robot's name?");
 // var playerHealth = 100;
 // var playerAttack = 10;
